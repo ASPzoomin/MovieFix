@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.app {
+  padding: 20px;
+}
+
+h1 {
+  color: red;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.genre-filter button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #333;
+  border: none;
+  color: white;
+  cursor: pointer;
+  }
+  
+  .genre-filter button.selected {
+    background-color: #e50914;
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+.movie-card {
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.movie-card h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+.movie-card p {
+  margin: 5px 0;
+}
