@@ -10,7 +10,7 @@ MovieFix is a movie information app that displays a list of movies from The Movi
 - Filter movies by genre.
 
 ## Getting Started
-1. Clone the repository,"https://github.com/ASPzoomin/MovieFix.git":
+1. Clone the repository,"git clone https://github.com/ASPzoomin/MovieFix.git":
 2. cd to "MOVIEFIX"
 3. Install dependencies,"npm i":
 4. Start the development server,"npm start":
